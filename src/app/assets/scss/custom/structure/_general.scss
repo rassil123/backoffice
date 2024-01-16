@@ -2,14 +2,14 @@
 // general.scss
 //
 body {
-    font-family: $font-family-secondary;
+    font-family: $font-family-secondary !important;
     overflow-x: hidden !important;
     font-size: $font-size-base;
     color: $body-color;
     background-color: $body-bg;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: $font-family-base;
+    font-family: $font-family-base !important;
     line-height: 1.5 !important;
     font-weight: 600 !important;
 }

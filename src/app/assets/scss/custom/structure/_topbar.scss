@@ -164,7 +164,7 @@
                 line-height: 24px;
                 text-transform: uppercase;
                 transition: all 0.5s;    
-                font-family: $font-family-base;
+                font-family: $font-family-base !important;
                 padding-left: 15px;
                 padding-right: 15px;
                 &:hover,
