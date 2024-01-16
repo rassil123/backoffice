@@ -94,7 +94,7 @@ export default function Sidebar({manuClass}){
                         </li>
 
                         <li className={`sidebar-dropdown ms-0 ${["/blog-detail","/blogs",'/blog-item'].includes(manu)? "active" : ""}`}>
-                            <Link href="#" onClick={(e)=>{setSubManu(subManu === '/blog-item' ? '' : 'blog-item')}}><MdFlip className="me-2 d-inline-block mb-0 icon"/>Blogs</Link>
+                            <Link href="#" onClick={(e)=>{setSubManu(subManu === '/blog-item' ? '' : '/blog-item')}}><MdFlip className="me-2 d-inline-block mb-0 icon"/>Blogs</Link>
                             <div className={`sidebar-submenu ${["/blog-detail","/blogs",'/blog-item'].includes(subManu)? "d-block" : ""}`}>
                                 <ul>
                                     <li className={`${manu === "/blogs" ? "active" : ""} ms-0`}><Link href="/blogs">Blogs</Link></li>

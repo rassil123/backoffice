@@ -15,7 +15,7 @@
     .chat-list,
     .chat-type {
         .on-off {
-            position: absolute;
+            position: absolute !important;
             left: -1px;
             top: -1px;
             font-size: 12px !important;
