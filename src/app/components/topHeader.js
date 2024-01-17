@@ -78,7 +78,7 @@ export default function TopHeader({toggle, setToggle}){
                             {countryData.map((item, index) =>{
                                 return(
                                 <Link href="#" className="d-flex align-items-center mt-2" key={index}>
-                                    <Image src={item.image} width={36} height={36} className="avatar avatar-client rounded-circle shadow" alt=""/>
+                                    <Image src={item.image} width={25} height={25} className="avatar avatar-client rounded-circle shadow" alt=""/>
                                     <div className="flex-1 text-left ms-2 overflow-hidden">
                                         <small className="text-dark mb-0">{item.name}</small>
                                     </div>
